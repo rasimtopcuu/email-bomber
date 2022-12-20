@@ -9,7 +9,7 @@ print ("\033[1;31m|##|_____   |##|      |##|   /##/    \##\    __|##|__   |##|__
 print ("\033[1;31m|########|  |##|      |##|  /##/      \##\  |########|  |##########| _|__| |__| |  | _|__| |__  |  \    \033[1;m")
 
 try:
-    bomb_email = input("Hedef sistem: ")
+    bomb_email = input("Target: ")
     email = input("Your Mail Address:")
     password = input("Your Password:")
     message = input("Message:")
